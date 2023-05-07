@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/picture_columns.dart';
 import 'fav_page.dart';
 import 'search_page.dart';
 
@@ -43,6 +44,7 @@ class _HomePageState extends State<HomePage> {
           )
         ],
       ),
+      body: PictureColumns(),
     );
   }
 }
